@@ -44,7 +44,7 @@ export default function Home() {
           As well as Javascript, CSS, HTML5, Headless CMS, NextJS, React and
           many other things in between.
         </p>
-        <h2 className={styles.subheadline}>Selected work:</h2>
+        <h2 className={styles.subheadline}>Selected Work:</h2>
 
         <div className={styles.grid}>
           <a
@@ -106,12 +106,12 @@ export default function Home() {
           </a>
         </div>
 
-        <article className={styles.footer}>
+        {/* <article className={styles.footer}>
           <FontAwesomeIcon icon="fa-brands fa-twitter" />
           <a className={styles.email} href="mailto:wserhan@gmail.com">
             wserhan@gmail.com
           </a>
-        </article>
+        </article> */}
       </main>
     </>
   );

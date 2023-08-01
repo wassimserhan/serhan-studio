@@ -70,7 +70,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h2 className={inter.className}>WSJ Global Food Forum</h2>
+            <h2 className={inter.className}>Global Food Forum</h2>
             <p className={inter.className}>Custom WordPress</p>
           </a>
 

@@ -44,6 +44,16 @@ export default function Home() {
         <h2 className={styles.subheadline}>Selected Work:</h2>
 
         <div className={styles.grid}>
+
+          <a
+            href="https://cyber.wsj.com/"
+            className={styles.card}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h2 className={inter.className}>Cybersecurity Forum</h2>
+            <p className={inter.className}>Custom WordPress</p>
+          </a>
           <a
             href="https://goodsamfoods.com/"
             className={styles.card}

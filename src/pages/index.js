@@ -38,11 +38,8 @@ export default function Home() {
         </div>
 
         <p className={styles.headline}>
-          Web design & development, specializing in custom Wordpress & Shopify
-          theme design.
-          <br />
-          As well as Javascript, CSS, HTML5, Headless CMS, NextJS, React and
-          many other things in between.
+          Web development specializing in custom WordPress & Shopify websites.
+
         </p>
         <h2 className={styles.subheadline}>Selected Work:</h2>
 
@@ -106,12 +103,12 @@ export default function Home() {
           </a>
         </div>
 
-        {/* <article className={styles.footer}>
+        <article className={styles.footer}>
           <FontAwesomeIcon icon="fa-brands fa-twitter" />
           <a className={styles.email} href="mailto:wserhan@gmail.com">
-            wserhan@gmail.com
+            wserhan at gmail.com
           </a>
-        </article> */}
+        </article>
       </main>
     </>
   );

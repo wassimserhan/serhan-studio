@@ -38,7 +38,7 @@ export default function Home() {
         </div>
 
         <p className={styles.headline}>
-          Web development specializing in custom WordPress & Shopify websites.
+          Web developer specializing in custom WordPress & Shopify websites.
 
         </p>
         <h2 className={styles.subheadline}>Selected Work:</h2>

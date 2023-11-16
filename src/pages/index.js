@@ -103,24 +103,7 @@ export default function Home() {
             <h2 className={inter.className}>WSJ Students</h2>
             <p className={inter.className}>Custom WordPress</p>
           </a>
-          <a
-            href="https://samirasowan.com/"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>eCommerce Site</h2>
-            <p className={inter.className}>Next.js & Snipcart</p>
-          </a>
-          <a
-            href="https://wassimserhan.com/"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>Photography Site</h2>
-            <p className={inter.className}>Next.js</p>
-          </a>
+
         </div>
 
         <article className={styles.footer}>

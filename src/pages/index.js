@@ -22,7 +22,7 @@ export default function Home() {
           <div>
 
             <Image
-              src="/logo.svg"
+              src="/logo.png"
               alt="Serhan Logo"
               className={styles.vercelLogo}
               width={300}

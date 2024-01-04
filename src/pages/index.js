@@ -105,7 +105,7 @@ export default function Home() {
         <article className={styles.footer}>
           <FontAwesomeIcon icon="fa-brands fa-twitter" />
           <a className={styles.email} href="mailto:wassim@serhan.studio">
-            wserhan at gmail.com
+            wassim at serhan.studio
           </a>
         </article>
       </main>

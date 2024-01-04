@@ -34,7 +34,7 @@ export default function Home() {
         </div>
 
         <p className={styles.headline}>
-          Web developer specializing in custom WordPress & Shopify websites.
+          WordPress & Shopify Development Agency
 
         </p>
         <h2 className={styles.subheadline}>Selected Work:</h2>
@@ -104,7 +104,7 @@ export default function Home() {
 
         <article className={styles.footer}>
           <FontAwesomeIcon icon="fa-brands fa-twitter" />
-          <a className={styles.email} href="mailto:wserhan@gmail.com">
+          <a className={styles.email} href="mailto:wassim@serhan.studio">
             wserhan at gmail.com
           </a>
         </article>

@@ -34,7 +34,7 @@ export default function Home() {
         </div>
 
         <p className={styles.headline}>
-          WordPress & Shopify Custom Development
+          WordPress & Shopify Web Development
 
         </p>
         <h2 className={styles.subheadline}>Selected Work:</h2>

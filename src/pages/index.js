@@ -34,10 +34,13 @@ export default function Home() {
         </div>
 
         <p className={styles.headline}>
-          WordPress & Shopify Web Development
+          Web Development
+          <br />
+          WordPress | Shopify | Headless CMS
 
         </p>
-        <h2 className={styles.subheadline}>Selected Work:</h2>
+        <h2 className={styles.subheadline}>Selected Work</h2>
+        <hr className={styles.line} />
 
         <div className={styles.grid}>
 
@@ -47,8 +50,8 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h2 className={inter.className}>30 Forensic Engineering</h2>
-            <p className={inter.className}>Custom WordPress</p>
+            <h2>30 Forensic Engineering</h2>
+            <p>Custom WordPress</p>
           </a>
 
           <a
@@ -57,8 +60,8 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h2 className={inter.className}>Cybersecurity Forum</h2>
-            <p className={inter.className}>Custom WordPress</p>
+            <h2>Cybersecurity Forum</h2>
+            <p>Custom WordPress</p>
           </a>
           <a
             href="https://goodsamfoods.com/"
@@ -66,8 +69,8 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h2 className={inter.className}>GoodSAM</h2>
-            <p className={inter.className}>Shopify Theme Customization</p>
+            <h2>GoodSAM Foods</h2>
+            <p>Shopify Theme Customization</p>
           </a>
 
           <a
@@ -76,8 +79,8 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h2 className={inter.className}>Global Food Forum</h2>
-            <p className={inter.className}>Custom WordPress</p>
+            <h2>Global Food Forum</h2>
+            <p>Custom WordPress</p>
           </a>
 
           <a
@@ -86,8 +89,8 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h2 className={inter.className}>WSJ Pro</h2>
-            <p className={inter.className}>Custom WordPress</p>
+            <h2>WSJ Pro</h2>
+            <p>Custom WordPress</p>
           </a>
 
           <a
@@ -96,8 +99,8 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h2 className={inter.className}>WSJ Students</h2>
-            <p className={inter.className}>Custom WordPress</p>
+            <h2>WSJ Students</h2>
+            <p>Custom WordPress</p>
           </a>
 
         </div>
@@ -105,7 +108,7 @@ export default function Home() {
         <article className={styles.footer}>
           <FontAwesomeIcon icon="fa-brands fa-twitter" />
           <a className={styles.email} href="mailto:wassim@serhan.studio">
-            wassim at serhan.studio
+            Contact
           </a>
         </article>
       </main>

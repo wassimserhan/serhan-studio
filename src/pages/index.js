@@ -50,8 +50,8 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h2>30 Forensic Engineering</h2>
-            <p>Custom WordPress</p>
+            <h2 className={styles.project_name}>30 Forensic Engineering</h2>
+            <p className={styles.project_tech}>Custom WordPress</p>
           </a>
 
           <a
@@ -60,8 +60,8 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h2>Cybersecurity Forum</h2>
-            <p>Custom WordPress</p>
+            <h2 className={styles.project_name} >Cybersecurity Forum</h2>
+            <p className={styles.project_tech}>Custom WordPress</p>
           </a>
           <a
             href="https://goodsamfoods.com/"
@@ -69,8 +69,8 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h2>GoodSAM Foods</h2>
-            <p>Shopify Theme Customization</p>
+            <h2 className={styles.project_name}>GoodSAM Foods</h2>
+            <p className={styles.project_tech}>Shopify Theme Customization</p>
           </a>
 
           <a
@@ -79,8 +79,8 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h2>Global Food Forum</h2>
-            <p>Custom WordPress</p>
+            <h2 className={styles.project_name}>Global Food Forum</h2>
+            <p className={styles.project_tech}>Custom WordPress</p>
           </a>
 
           <a
@@ -89,8 +89,8 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h2>WSJ Pro</h2>
-            <p>Custom WordPress</p>
+            <h2 className={styles.project_name}>WSJ Pro</h2>
+            <p className={styles.project_tech}>Custom WordPress</p>
           </a>
 
           <a
@@ -99,8 +99,8 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h2>WSJ Students</h2>
-            <p>Custom WordPress</p>
+            <h2 className={styles.project_name}>WSJ Students</h2>
+            <p className={styles.project_tech}>Custom WordPress</p>
           </a>
 
         </div>

@@ -96,7 +96,6 @@
   background: rgba(var(--card-rgb), 0);
   border: 1px solid rgba(var(--card-border-rgb), 0);
   transition: background 200ms, border 200ms;
-  font-family: 'Menlo', Helvetica, sans-serif;
 }
 
 .card span {
@@ -116,6 +115,14 @@
   font-size: 0.9rem;
   line-height: 1.5;
   max-width: 30ch;
+}
+
+.project_name {
+  font-family: 'Menlo', Helvetica, sans-serif;
+}
+
+.project_tech {
+  font-family: 'Menlo', Helvetica, sans-serif;
 }
 
 .center {
@@ -232,6 +239,10 @@
   .subheadline {
     padding: 10px;
     text-align: center;
+  }
+
+  .line {
+    margin: auto;
   }
 
   .grid {

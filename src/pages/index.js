@@ -55,15 +55,6 @@ export default function Home() {
           </a>
 
           <a
-            href="https://cyber.wsj.com/"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={styles.project_name} >Cybersecurity Forum</h2>
-            <p className={styles.project_tech}>Custom WordPress</p>
-          </a>
-          <a
             href="https://goodsamfoods.com/"
             className={styles.card}
             target="_blank"
@@ -72,6 +63,17 @@ export default function Home() {
             <h2 className={styles.project_name}>GoodSAM Foods</h2>
             <p className={styles.project_tech}>Shopify Theme Customization</p>
           </a>
+
+          <a
+            href="https://cyber.wsj.com/"
+            className={styles.card}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h2 className={styles.project_name} >Cybersecurity Forum</h2>
+            <p className={styles.project_tech}>Custom WordPress</p>
+          </a>
+
 
           <a
             href="https://globalfood.wsj.com/"

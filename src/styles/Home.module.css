@@ -45,7 +45,7 @@
   font-family: 'Menlo', Helvetica, sans-serif;
   font-size: 1rem;
   font-weight: 400;
-  padding: 40px 20px 20px;
+  /* padding: 40px 20px 20px; */
   line-height: 1.7rem;
   text-decoration: underline;
 }
@@ -204,6 +204,11 @@
   background-clip: content-box;
 }
 
+.footer {
+  display: flex;
+  justify-content: flex-start;
+}
+
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {
@@ -228,6 +233,10 @@
 
 /* Mobile */
 @media (max-width: 700px) {
+  .logo {
+    text-align: center;
+  }
+
   .content {
     padding: 4rem;
   }
@@ -250,6 +259,7 @@
     margin-bottom: 120px;
     max-width: 100%;
     text-align: center;
+    place-items: center;
   }
 
   .card {
@@ -314,6 +324,10 @@
     );
     z-index: 1;
   }
+
+  .footer {
+    justify-content: center;
+  }
 }
 
 /* Tablet and Smaller Desktop */
@@ -341,9 +355,4 @@
   to {
     transform: rotate(0deg);
   }
-}
-
-.footer {
-  display: flex;
-  justify-content: flex-start;
 }

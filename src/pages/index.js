@@ -94,12 +94,12 @@ export default function Home() {
           </a>
 
           <a
-            href="https://students.wsj.com/"
+            href="https://education.wsj.com/"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h2 className={styles.project_name}>WSJ Students</h2>
+            <h2 className={styles.project_name}>WSJ Education</h2>
             <p className={styles.project_tech}>Custom WordPress</p>
           </a>
 

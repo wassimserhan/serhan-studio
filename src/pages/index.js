@@ -34,9 +34,7 @@ export default function Home() {
         </div>
 
         <p className={styles.headline}>
-          Custom Web Development
-          <br />
-          WordPress | Shopify | NextJS
+          A Shopify & WordPress Development Studio
 
         </p>
         <h2 className={styles.subheadline}>Selected Work</h2>

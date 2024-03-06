@@ -37,7 +37,7 @@ export default function Home() {
           A Shopify & WordPress Development Studio
 
         </p>
-        <h2 className={styles.subheadline}>Selected Work</h2>
+        <h2 className={styles.subheadline}>HIGHLIGHTED WORK</h2>
         <hr className={styles.line} />
 
         <div className={styles.grid}>
@@ -62,26 +62,6 @@ export default function Home() {
             <p className={styles.project_tech}>Shopify Theme Customization</p>
           </a>
 
-          <a
-            href="https://cyber.wsj.com/"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={styles.project_name} >Cybersecurity Forum</h2>
-            <p className={styles.project_tech}>Custom WordPress</p>
-          </a>
-
-
-          <a
-            href="https://globalfood.wsj.com/"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={styles.project_name}>Global Food Forum</h2>
-            <p className={styles.project_tech}>Custom WordPress</p>
-          </a>
 
           <a
             href="https://wsjpro.com/"

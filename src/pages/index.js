@@ -34,7 +34,7 @@ export default function Home() {
         </div>
 
         <p className={styles.headline}>
-          A New York-based web development studio specializing in eCommerce and informational sites.
+          Web developer specializing in informational and eCommerce websites.
 
         </p>
         <h2 className={styles.subheadline}>HIGHLIGHTED WORK</h2>

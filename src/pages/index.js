@@ -33,8 +33,24 @@ export default function Home() {
           </div>
         </div>
 
-        <p className={styles.headline}>
-          Web developer specializing in informational and eCommerce websites.
+        <h1 className={styles.headline}>
+          Serhan Studio is a web development studio specializing in informational and eCommerce websites.
+
+        </h1>
+
+        <h2 className={styles.subheadline}>SERVICES</h2>
+        <hr className={styles.line} />
+
+        <p className={styles.description}>
+          <ul>
+            <li>Semi-Custom & Bespoke Theme Development</li>
+            <br />
+            <li>Platform Migrations</li>
+            <br />
+            <li>General Audit Reports</li>
+
+          </ul>
+
 
         </p>
         <h2 className={styles.subheadline}>HIGHLIGHTED WORK</h2>
@@ -48,7 +64,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h2 className={styles.project_name}>30 Forensic Engineering</h2>
+            <h4 className={styles.project_name}>30 Forensic Engineering</h4>
             <p className={styles.project_tech}>Custom WordPress</p>
           </a>
 
@@ -58,7 +74,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h2 className={styles.project_name}>GoodSAM Foods</h2>
+            <h4 className={styles.project_name}>GoodSAM Foods</h4>
             <p className={styles.project_tech}>Shopify Theme Customization</p>
           </a>
 
@@ -69,7 +85,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h2 className={styles.project_name}>WSJ Pro</h2>
+            <h4 className={styles.project_name}>WSJ Pro</h4>
             <p className={styles.project_tech}>Custom WordPress</p>
           </a>
 
@@ -79,7 +95,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h2 className={styles.project_name}>WSJ Education</h2>
+            <h4 className={styles.project_name}>WSJ Education</h4>
             <p className={styles.project_tech}>Custom WordPress</p>
           </a>
 

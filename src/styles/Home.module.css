@@ -29,6 +29,7 @@
   line-height: 1.7rem;
   max-width: 600px;
   font-weight: normal;
+  color: rgb(254, 250, 243);
 }
 
 .subheadline {
@@ -36,11 +37,13 @@
   font-size: 0.9rem;
   padding: 20px 20px 3px;
   line-height: 1.7rem;
+  color: rgb(254, 250, 243);
 }
 
 .line {
   width: 60%;
   margin: 0 0 10px;
+  color: rgb(254, 250, 243);
 }
 
 .email {
@@ -50,6 +53,7 @@
   padding: 30px 20px 0;
   line-height: 1.7rem;
   text-decoration: underline;
+  color: rgb(254, 250, 243);
 }
 
 .description {
@@ -62,6 +66,7 @@
   z-index: 2;
   font-family: var(--font-mono);
   padding: 0 20px 20px;
+  color: rgb(254, 250, 243);
 }
 
 .description a {
@@ -69,6 +74,7 @@
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
+  color: rgb(254, 250, 243);
 }
 
 .description p {
@@ -78,6 +84,7 @@
   background-color: rgba(var(--callout-rgb), 0.5);
   border: 1px solid rgba(var(--callout-border-rgb), 0.3);
   border-radius: var(--border-radius);
+  color: rgb(254, 250, 243);
 }
 
 .code {
@@ -109,6 +116,7 @@
   font-weight: 600;
   font-size: 1.1rem;
   margin-bottom: 0.2rem;
+  color: rgb(254, 250, 243);
 }
 
 .card p {
@@ -117,14 +125,17 @@
   font-size: 0.9rem;
   line-height: 1.5;
   max-width: 30ch;
+  color: rgb(254, 250, 243);
 }
 
 .project_name {
   font-family: 'Menlo', Helvetica, sans-serif;
+  color: rgb(254, 250, 243);
 }
 
 .project_tech {
   font-family: 'Menlo', Helvetica, sans-serif;
+  color: rgb(254, 250, 243);
 }
 
 .center {
@@ -347,7 +358,7 @@
 
   .logo,
   .thirteen img {
-    filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);
+    filter: invert(1) drop-shadow(0 0 0.3rem rgb(254, 250, 243) 70);
   }
 }
 

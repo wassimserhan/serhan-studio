@@ -22,7 +22,7 @@ export default function Home() {
           <div>
 
             <Image
-              src="/serhan_logo.png"
+              src="/logo_white.svg"
               alt="Serhan Logo"
               className={styles.vercelLogo}
               width={300}
@@ -34,13 +34,13 @@ export default function Home() {
         </div>
 
         <h1 className={styles.headline}>
-          Serhan Studio is a digital studio that builds informational and eCommerce websites for a variety of clients.
+          New York based web development studio that builds informational and eCommerce websites for a variety of clients.
 
         </h1>
 
 
 
-        <h2 className={styles.subheadline}>HIGHLIGHTED WORK</h2>
+        <h2 className={styles.subheadline}>SELECTED WORK</h2>
         <hr className={styles.line} />
 
         <div className={styles.grid}>

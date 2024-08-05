@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Serhan Studio - Web Development</title>
+        <title>Serhan Studio</title>
         <meta name="description" content="WordPress & Shopify" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.png" />
@@ -34,25 +34,12 @@ export default function Home() {
         </div>
 
         <h1 className={styles.headline}>
-          Serhan Studio is a web development studio specializing in informational and eCommerce websites.
+          Serhan Studio is a digital studio that builds informational and eCommerce websites for a variety of clients.
 
         </h1>
 
-        <h2 className={styles.subheadline}>SERVICES</h2>
-        <hr className={styles.line} />
-
-        <p className={styles.description}>
-          <ul>
-            <li>Semi-Custom & Bespoke Theme Development</li>
-            <br />
-            <li>Platform Migrations</li>
-            <br />
-            <li>General Audit Reports</li>
-
-          </ul>
 
 
-        </p>
         <h2 className={styles.subheadline}>HIGHLIGHTED WORK</h2>
         <hr className={styles.line} />
 
@@ -107,7 +94,7 @@ export default function Home() {
             Contact
           </a>
         </article>
-      </main>
+      </main >
     </>
   );
 }

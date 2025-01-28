@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Serhan Studio</title>
+        <title>Lake Street Studio</title>
         <meta name="description" content="WordPress & Shopify" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.png" />

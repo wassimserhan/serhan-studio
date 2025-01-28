@@ -19,18 +19,10 @@ export default function Home() {
         <div className={styles.logo}>
 
 
-          <div>
+          <h1 className={styles.headline}>
+            Lake Street Studio
 
-            <Image
-              src="/logo_white.svg"
-              alt="Serhan Logo"
-              className={styles.vercelLogo}
-              width={300}
-              height={124}
-              priority
-            />
-
-          </div>
+          </h1>
         </div>
 
         <h1 className={styles.headline}>

@@ -13,13 +13,14 @@ export default function Home() {
         <title>Lake Street Studio</title>
         <meta name="description" content="WordPress & Shopify" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="https://use.typekit.net/uku2yqf.css" />
         <link rel="icon" href="/favicon.png" />
       </Head>
       <main className={styles.main}>
         <div className={styles.logo}>
 
 
-          <h1 className={styles.headline}>
+          <h1 className={styles.logoHeadline}>
             Lake Street Studio
 
           </h1>
